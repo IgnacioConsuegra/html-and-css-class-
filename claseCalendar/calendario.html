@@ -3,35 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>calendario</title>
+    <title>Calendario</title>
 </head>
 <body>
-    
-  <!--   <form action="">
-        <label for="hora">
-            <span>hora</span>
-            <input type="time" id="hora" name="hora">
-        </label>
-        <label for="dia">
-            <span>dia</span>
-            <input type="date" id="dia" name="dia">
-        </label>
-        <label for="semana">
-            <span>semana</span>
-            <input type="week" id="semana" name="semana">
-        </label>
-        <label for="mes">
-            <span>mes</span>
-            <input type="month" id="mes" name="mes">
-        </label>
-            <input type="submit" >
-    </form> -->
- 
-    <form action=""></form>
-        <label for="calendario">
-            <span>calendario</span>
-            <input type="datetime-local" id="calendario" name="calendario">
-        </label>
-        <input type="submit" name="" id="">
+    <main>
+        <form action="" >
+            <label for="nombre">
+                <span>Cual es tu nombre?</span>
+                <input type="text" name="nombre" id="nombre" autocomplete="name" required>
+            </label>
+            <label for="correo">
+                <span>Cual es tu correo?</span>
+                <input type="email" name="correo" id="correo" autocomplete="email" required>
+            </label>
+            <label for="país">
+                <span>De donde eres?</span>
+                <input type="text" name="país" id="país" autocomplete="country" required>
+            </label>
+            <label for="cp">
+                <span>Cual es tu codigo postal?</span>
+                <input type="text" name="codigo" id="codigo" autocomplete="postal-code" required>
+            </label>
+        </form>
+        <input type="submit">
+    </main>
 </body>
 </html>
